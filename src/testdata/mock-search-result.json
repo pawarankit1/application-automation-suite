@@ -1,0 +1,21 @@
+{
+  "count": 1,
+  "listing": {
+    "title": "Beautiful Apartment in Amsterdam",
+    "address": "123 Main Street, Amsterdam",
+    "price": "€1,500 per month",
+    "url": "/apartments/amsterdam/beautiful-apartment"
+  },
+  "searchLocation": "Amsterdam",
+  "expectedHeader": "Rental Apartments Amsterdam",
+  "selectors": {
+    "countSpan": ".search-list-header__count",
+    "header": ".search-list-header__heading",
+    "title": "heading",
+    "price": ".listing-search-item__price"
+  },
+  "timeouts": {
+    "count": 10000,
+    "title": 15000
+  }
+}

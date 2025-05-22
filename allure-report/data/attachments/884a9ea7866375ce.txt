@@ -1,0 +1,12 @@
+2025-05-22T09:39:37+02:00 [info]: Waiting for cookie banner to be visible
+2025-05-22T09:39:42+02:00 [error]: Cookie banner not found or already handled : locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for getByText('Agree Reject non-essential') to be visible
+
+2025-05-22T09:39:42+02:00 [info]: Filled search input with :
+2025-05-22T09:39:44+02:00 [info]: Selected search option with :
+2025-05-22T09:39:44+02:00 [info]: Navigated to map view
+2025-05-22T09:39:46+02:00 [info]: Clicked on map at coordinates :
+2025-05-22T09:39:46+02:00 [info]: Clicked on map at coordinates :
+2025-05-22T09:39:46+02:00 [info]: ****THIS IS STREET
+2025-05-22T09:39:46+02:00 [info]: Property title: For rent: House Rondostraat in Almere

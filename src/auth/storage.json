@@ -1,0 +1,181 @@
+{
+  "cookies": [
+    {
+      "name": "ujt_id",
+      "value": "7c6e7d32-3a7a-479e-a994-f501f68a3e22",
+      "domain": "www.pararius.com",
+      "path": "/",
+      "expires": 1763797425.768936,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_vwo_uuid_v2",
+      "value": "D5A6750FDF33059CC00F76B6196E11DA8|a574d2e86c8ff27f41754c6bd32adb67",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1779522224,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_vwo_uuid",
+      "value": "D5A6750FDF33059CC00F76B6196E11DA8",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1779456775,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_vwo_ds",
+      "value": "3%241747899823%3A30.6975802%3A%3A",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1748504623,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_vis_opt_s",
+      "value": "1%7C",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1756539823,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_vis_opt_test_cookie",
+      "value": "1",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2025-05-22T07:43:44.192Z",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1779435824,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "eupubconsent-v2",
+      "value": "CQRzwDAQRzwDAAcABBENBrFsAP_gAAAAAChQLNtT_G__bWlr-T73aftkeYxP99h77sQxBgbJE-4FzLvW_JwXx2E5NAz6tqIKmRIAu3TBIQNlHJDURVCgaogVryDMaEyUoTNKJ6BkiFMRI2NYCFxvm4tjeQCY5vr991c1mB-t7dr83dzyy4hHn3a5_2S1WJCdAYetDfv8bBOT-9IOd_x8v4v4_F7pE2-eS1n_pWvp7D9-Yls_9X299_bbff7Pn_ful_-_X_vf_n37v943n77v_4AAAAAA.f_wAAAAAAAAA",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1779435824,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.388003962.1747899824",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1755675824,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1307770191.1747899824",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1782459825.894192,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1747899824443.85673259763583835",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1755675825,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_vwo_sn",
+      "value": "0%3A2%3A%3A%3A1",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1747901625,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "15ed7d6f7d079e501afdda10b12cb848",
+      "domain": "www.pararius.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Thu+May+22+2025+09%3A43%3A45+GMT%2B0200+(Central+European+Summer+Time)&version=202504.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=85b30387-622c-4833-9a6a-461399115d3e&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1%2CV2STACK42%3A1&intType=1&geolocation=NL%3BFL&AwaitingReconsent=false",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1779435825,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_V649BZ47DJ",
+      "value": "GS2.1.s1747899824$o1$g1$t1747899825$j0$l0$h0",
+      "domain": ".pararius.com",
+      "path": "/",
+      "expires": 1782459825.89393,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.pararius.com",
+      "localStorage": [
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"creationTimeMs\":1747899824225},\"expires\":1755675824225}}"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1747899824441"
+        },
+        {
+          "name": "vwoSn",
+          "value": "{\"v\":\"0.1.0\",\"lt\":\"1747899825\",\"r\":\"\",\"cu\":\"https%3A%2F%2Fwww.pararius.com%2Flogin\"}"
+        },
+        {
+          "name": "_vwo_774484_config",
+          "value": "{}"
+        }
+      ]
+    }
+  ]
+}

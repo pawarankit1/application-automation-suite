@@ -1,0 +1,35 @@
+{
+    "coordinates": {
+        "amsterdam": {
+            "latitude": 52.3676,
+            "longitude": 4.9041
+        }
+    },
+    "locations": [
+        "Amsterdam",
+        "Rotterdam",
+        "The Hague"
+    ],
+    "postcodes": [
+        "1012 JS",
+        "1054 AG",
+        "1071 AE"
+    ],
+    "searchQueries": [
+        {
+            "query": "Almere",
+            "mapX": 676,
+            "mapY": 264
+        },
+        {
+            "query": "1323",
+            "mapX": 500,
+            "mapY": 300
+        },
+        {
+            "query": "septemberstraat",
+            "mapX": 400,
+            "mapY": 350
+        }
+    ]
+} 

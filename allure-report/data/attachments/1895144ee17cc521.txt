@@ -1,0 +1,14 @@
+2025-05-22T09:43:44+02:00 [info]: Waiting for cookie banner to be visible
+2025-05-22T09:43:49+02:00 [error]: Cookie banner not found or already handled : locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for getByText('Agree Reject non-essential') to be visible
+
+2025-05-22T09:43:49+02:00 [info]: Filled search input with :
+2025-05-22T09:43:51+02:00 [info]: Selected search option with :
+2025-05-22T09:43:53+02:00 [info]: Canvas found and visible
+2025-05-22T09:43:53+02:00 [info]: Canvas width and height:
+2025-05-22T09:43:53+02:00 [info]: Canvas center:
+2025-05-22T09:43:53+02:00 [info]: Step size:
+2025-05-22T09:43:53+02:00 [info]: Points:
+2025-05-22T09:43:54+02:00 [info]: Clicked on canvas at:
+2025-05-22T09:43:55+02:00 [info]: ****THIS IS COUNT OF RESULTS :
