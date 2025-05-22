@@ -1,6 +1,5 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
-import { decryptEnvFile } from '../utils/EncryptDecryptEnvUtil';
 
 
 // First test to perform login
