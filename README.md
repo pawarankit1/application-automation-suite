@@ -26,7 +26,7 @@ An end-to-end test automation suite for Pararius.com using Playwright and TypeSc
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/pawarankit1/prarius-automation-suite.git
 cd prarius-automation-suite
 ```
 
