@@ -56,10 +56,10 @@ src/
 │   └── smoke/              # Smoke test suite
 └── utils/                 # Utility functions
 runner/                    # Test execution scripts
-├── full-suite-execution.sh
-├── smoke-test-execution.sh
-├── regression-test-execution.sh
-└── accessibility-test-execution.sh
+├── complete-test-runner.sh
+├── smoke-test-runner.sh
+├── regression-test-runner.sh
+└── accessibility-test-runner.sh
 ```
 
 ## Browser Support

@@ -80,17 +80,17 @@ STORAGE_STATE_PATH=src/auth
 The project includes shell scripts in the `runner/` directory for executing different test suites:
 
 ```bash
-# Run full test suite
-./runner/full-suite-execution.sh
+# Run complete test suite
+./runner/complete-test-runner.sh
 
 # Run smoke tests
-./runner/smoke-test-execution.sh
+./runner/smoke-test-runner.sh
 
 # Run regression tests
-./runner/regression-test-execution.sh
+./runner/regression-test-runner.sh
 
 # Run accessibility tests
-./runner/accessibility-test-execution.sh
+./runner/accessibility-test-runner.sh
 ```
 
 Each script will:
