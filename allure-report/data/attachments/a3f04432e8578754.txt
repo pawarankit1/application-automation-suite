@@ -1,7 +1,0 @@
-2025-05-22T09:43:54+02:00 [info]: Waiting for cookie banner to be visible
-2025-05-22T09:43:59+02:00 [error]: Cookie banner not found or already handled : locator.waitFor: Timeout 5000ms exceeded.
-Call log:
-  - waiting for getByText('Agree Reject non-essential') to be visible
-
-2025-05-22T09:43:59+02:00 [info]: Filled search input with :
-2025-05-22T09:44:01+02:00 [info]: Selected search option with :

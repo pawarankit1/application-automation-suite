@@ -1,0 +1,32 @@
+{
+  "errorMessages": {
+    "generic": {
+      "text": "Invalid username or password",
+      "selector": ".error-message"
+    },
+    "username": {
+      "text": "Username is required",
+      "selector": ".username-error-message"
+    },
+    "password": {
+      "text": "Password is required",
+      "selector": ".password-error-message"
+    },
+    "form": {
+      "text": "Please enter both username and password",
+      "selector": ".form-error-message"
+    },
+    "caseSensitive": {
+      "text": "Username is case sensitive",
+      "selector": ".error-message"
+    },
+    "spaces": {
+      "text": "Username should not contain leading or trailing spaces",
+      "selector": ".error-message"
+    },
+    "invalidCredentials": {
+      "text": "Invalid credentials provided",
+      "selector": ".error-message"
+    }
+  }
+} 

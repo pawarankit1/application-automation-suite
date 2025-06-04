@@ -8,13 +8,16 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
     "@faker-js/faker": "^9.8.0",
     "@playwright/test": "^1.52.0",
     "@types/crypto-js": "^4.2.2",
     "@types/node": "^22.15.18",
     "allure-commandline": "^2.34.0",
     "allure-playwright": "^3.2.2",
-    "dotenv": "^16.5.0"
+    "chrome-launcher": "^1.2.0",
+    "dotenv": "^16.5.0",
+    "http-server": "^14.1.1"
   },
   "dependencies": {
     "crypto-js": "^4.2.0",

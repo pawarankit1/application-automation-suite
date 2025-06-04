@@ -1,10 +1,13 @@
 # Playwright
 node_modules/
-.env
+# .env
+.vscode/
+# /src/config/*.env
+/src/logging/*.log
+/src/reporting/*
 /test-results/
 /playwright-report/
 /playwright/.cache/
 .DS_Store
-
 # Authentication
 src/auth/*.json

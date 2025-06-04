@@ -1,7 +1,7 @@
 import CryptoJS from "crypto-js";
 import fs from "fs";
 import path from "path";
-import logger from "./LoggerUtils.js";
+import { logger } from "./LoggerUtil";
 
 // Change to 'config' folder
 const configDir = path.resolve(__dirname, "../config");

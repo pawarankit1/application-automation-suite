@@ -1,0 +1,22 @@
+{
+  "users": {
+    "admin": {
+      "email": "admin@admin.com",
+      "password": "2020",
+      "role": "administrator",
+      "description": "System administrator with full access"
+    },
+    "regular": {
+      "email": "biancunha@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "description": "Regular user with standard access"
+    },
+    "partner": {
+      "email": "growdev@growdev.com.br",
+      "password": "growdev123",
+      "role": "partner",
+      "description": "Partner organization user"
+    }
+  }
+} 

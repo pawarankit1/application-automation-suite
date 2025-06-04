@@ -6,6 +6,7 @@
 - Playwright for end-to-end testing
 - TypeScript
 - Allure Command Line Tool
+- Accessibility testing tools (axe-core)
 
 ## Dependencies
 ```json
@@ -14,8 +15,9 @@
     "@playwright/test": "latest",
     "dotenv": "latest",
     "typescript": "latest",
-    "@playwright/test": "latest",
-    "allure-playwright": "latest"
+    "allure-playwright": "latest",
+    "axe-core": "latest",
+    "@axe-core/playwright": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -27,40 +29,37 @@
 ## Environment Variables
 Required environment variables in `.env` file:
 ```
-TEST_USER_EMAIL=your.email@example.com
-TEST_USER_PASSWORD=your-password
-STORAGE_STATE_PATH=playwright/.auth/user.json
-SALT=your-encryption-salt
+TEST_ROLES=admin,dev,user
+ADMIN_USER_EMAIL=admin@example.com
+ADMIN_USER_PASSWORD=admin-password
+DEV_USER_EMAIL=dev@example.com
+DEV_USER_PASSWORD=dev-password
+NORMAL_USER_EMAIL=user@example.com
+NORMAL_USER_PASSWORD=user-password
+STORAGE_STATE_PATH=src/auth
 ```
 
-## Directory Structure
+## Project Structure
 ```
 src/
-├── config/
-│   └── .env
-├── fixtures/
-│   └── downloadFixture.ts
-├── pages/
-│   ├── BasePage.ts
-│   ├── LoginPage.ts
-│   ├── SearchPage.ts
-│   └── downloadPage.ts
-├── screenshots/
-├── testdata/
-│   ├── card-list-view.json
-│   ├── map-search-data.json
-│   └── mock-search-result.json
-├── tests/
-│   ├── tc-1-login.spec.ts
-│   ├── tc-2-map-based-search.spec.ts
-│   ├── tc-3-card-list-view.spec.ts
-│   ├── tc-4-download-brochure.spec.ts
-│   └── tc-6-intercept-mock.spec.ts
-└── utils/
-    ├── commands.ts
-    ├── CryptojsUtil.ts
-    ├── downloadUtil.ts
-    └── LoggerUtils.ts
+├── auth/                    # Authentication state storage
+├── config/                  # Configuration files
+├── fixtures/               # Test fixtures and test data
+├── logging/                # Logging utilities
+├── pages/                  # Page Object Models
+├── reporting/              # Test reporting utilities
+├── testdata/              # Test data files
+├── tests/                 # Test suites
+│   ├── accessibility-tests/  # Accessibility test suite
+│   ├── regression/          # Regression test suite
+│   ├── setup/              # Test setup and configuration
+│   └── smoke/              # Smoke test suite
+└── utils/                 # Utility functions
+runner/                    # Test execution scripts
+├── full-suite-execution.sh
+├── smoke-test-execution.sh
+├── regression-test-execution.sh
+└── accessibility-test-execution.sh
 ```
 
 ## Browser Support
@@ -68,45 +67,81 @@ src/
 - Firefox (Optional)
 - WebKit (Optional)
 
+## Test Categories
+
+1. Smoke Testing
+   - Basic functionality verification
+   - Critical path testing
+   - Quick execution
+   - Essential feature validation
+
+2. Regression Testing
+   - Full feature coverage
+   - Edge case handling
+   - Data validation
+   - Error handling
+   - Performance checks
+
+3. Accessibility Testing
+   - WCAG 2.1 compliance
+   - Screen reader compatibility
+   - Keyboard navigation
+   - Color contrast
+   - ARIA attributes
+   - Semantic HTML
+
 ## Test Features
 1. Authentication
-   - Login functionality
+   - Role-based login (admin, dev, user)
    - Session state management
-   - Cookie handling
+   - Storage state handling
 
-2. Search Functionality
-   - Location-based search
-   - Map-based search
-   - City/District search
+2. Smoke Testing
+   - Home page verification
+   - Navigation elements
+   - Basic functionality checks
 
-3. Property Listing
-   - Card list view
-   - Map view
-   - Property details
-   - Search results verification
+3. Regression Testing
+   - Comprehensive feature testing
+   - Data validation
+   - Error scenarios
+   - Edge cases
 
-4. Download Features
-   - PDF brochure download
-   - Popup handling
-   - File validation
-
-5. Screenshot Capture
-   - Timestamped screenshots
-   - Search results verification
-   - Error state capture
+4. Accessibility Testing
+   - WCAG compliance checks
+   - Screen reader testing
+   - Keyboard navigation
+   - Color contrast validation
 
 ## Security Requirements
-- Cookie consent management
-- Popup handling
+- Secure credential management
+- Environment-based configuration
+- Role-based access control
+
+## Test Execution
+1. Runner Scripts
+   - Full suite execution
+   - Smoke test execution
+   - Regression test execution
+   - Accessibility test execution
+   - Automatic report generation
+   - Browser-based report viewing
+
+2. Manual Execution
+   - Playwright CLI commands
+   - Debug mode
+   - UI mode
+   - Test filtering
 
 ## Test Reporting
 - Allure HTML reports
-- Screenshot attachments
-- Test execution video
-- Test steps and descriptions
+- Test execution status
 - Environment information
 - Test duration and status
-- One-click report generation script (`allure-report.sh`)
+- Accessibility violation reports
+- Automated report generation via runner scripts
+- Report server management
+- Clean report generation
 
 ## Retry Mechanism
 - Global retry configuration
@@ -116,70 +151,38 @@ src/
 - Retry timeout settings
 
 ## Performance Requirements
-- Test timeout: 10000ms (default)
+- Test timeout: 30000ms (default)
 - Network idle state verification
 - Element visibility checks
 - Retry mechanisms for flaky operations
 - Retry attempts: 2 (default)
 - Retry timeout: 30000ms (default)
 
-## Report Generation
-- Automated report generation script
-- Clean report generation (removes old reports)
-- Automatic browser opening
-- Server-based report viewing
-- Interactive report navigation
+## User Roles
+1. Admin
+   - Full system access
+   - Administrative privileges
 
-## Test Features
-1. Authentication
-   - Login functionality
-   - Session state management
-   - Cookie handling
+2. Developer
+   - Development environment access
+   - Testing capabilities
 
-2. Search Functionality
-   - Location-based search
-   - Map-based search
-   - City/District search
+3. Normal User
+   - Standard user access
+   - Basic functionality
 
-3. Property Listing
-   - Card list view
-   - Map view
-   - Property details
-   - Search results verification
+## Accessibility Standards
+1. WCAG 2.1 Guidelines
+   - Perceivable
+   - Operable
+   - Understandable
+   - Robust
 
-4. Download Features
-   - PDF brochure download
-   - Popup handling
-   - File validation
-
-5. Screenshot Capture
-   - Timestamped screenshots
-   - Search results verification
-   - Error state capture
-
-## Security Requirements
-- Cookie consent management
-- Popup handling
-
-## Test Reporting
-- Allure HTML reports
-- Screenshot attachments
-- Test execution video
-- Test steps and descriptions
-- Environment information
-- Test duration and status
-
-## Retry Mechanism
-- Global retry configuration
-- Retry on specific test failures
-- Custom retry conditions
-- Retry count configuration
-- Retry timeout settings
-
-## Performance Requirements
-- Test timeout: 10000ms (default)
-- Network idle state verification
-- Element visibility checks
-- Retry mechanisms for flaky operations
-- Retry attempts: 2 (default)
-- Retry timeout: 30000ms (default) 
+2. Testing Requirements
+   - Automated accessibility checks
+   - Manual verification points
+   - Screen reader compatibility
+   - Keyboard navigation
+   - Color contrast validation
+   - ARIA implementation
+   - Semantic HTML structure 

@@ -1,25 +1,116 @@
-2025-05-22T09:43:49+02:00 [error]: Cookie banner not found or already handled : locator.waitFor: Timeout 5000ms exceeded.
+2025-06-04T06:14:04+02:00 [error]: Failed to verify error message for type caseSensitive: locator.waitFor: Timeout 5000ms exceeded.
 Call log:
-[2m  - waiting for getByText('Agree Reject non-essential') to be visible[22m
+[2m  - waiting for locator('.error-message') to be visible[22m
+[2m    15 × locator resolved to hidden <div class="error-message"></div>[22m
 
-2025-05-22T09:43:49+02:00 [error]: Cookie banner not found or already handled : locator.waitFor: Timeout 5000ms exceeded.
+2025-06-04T06:59:21+02:00 [error]: Failed to verify error message for type form: locator.waitFor: Timeout 5000ms exceeded.
 Call log:
-[2m  - waiting for getByText('Agree Reject non-essential') to be visible[22m
+[2m  - waiting for locator('.form-error-message') to be visible[22m
 
-2025-05-22T09:43:49+02:00 [error]: Cookie banner not found or already handled : locator.waitFor: Timeout 5000ms exceeded.
+2025-06-04T06:59:21+02:00 [error]: Failed to verify error message for type caseSensitive: locator.waitFor: Timeout 5000ms exceeded.
 Call log:
-[2m  - waiting for getByText('Agree Reject non-essential') to be visible[22m
+[2m  - waiting for locator('.error-message') to be visible[22m
 
-2025-05-22T09:43:50+02:00 [error]: Cookie banner not found or already handled : locator.waitFor: Timeout 5000ms exceeded.
+2025-06-04T06:59:21+02:00 [error]: Failed to verify error message for type spaces: locator.waitFor: Timeout 5000ms exceeded.
 Call log:
-[2m  - waiting for getByText('Agree Reject non-essential') to be visible[22m
+[2m  - waiting for locator('.error-message') to be visible[22m
 
-2025-05-22T09:43:53+02:00 [error]: Vignette did not appear, continue
-2025-05-22T09:43:59+02:00 [error]: Cookie banner not found or already handled : locator.waitFor: Timeout 5000ms exceeded.
+2025-06-04T06:59:21+02:00 [error]: Failed to verify error message for type username: locator.waitFor: Timeout 5000ms exceeded.
 Call log:
-[2m  - waiting for getByText('Agree Reject non-essential') to be visible[22m
+[2m  - waiting for locator('.username-error-message') to be visible[22m
 
-2025-05-22T09:43:59+02:00 [error]: Cookie banner not found or already handled : locator.waitFor: Timeout 5000ms exceeded.
+2025-06-04T06:59:21+02:00 [error]: Failed to verify error message for type password: locator.waitFor: Timeout 5000ms exceeded.
 Call log:
-[2m  - waiting for getByText('Agree Reject non-essential') to be visible[22m
+[2m  - waiting for locator('.password-error-message') to be visible[22m
 
+2025-06-04T06:59:28+02:00 [error]: Failed to verify error message for type invalidCredentials: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-message') to be visible[22m
+
+2025-06-04T07:00:55+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:00:55+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:00:55+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:00:55+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:00:55+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:01:07+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    25 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:02:52+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:02:52+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:02:52+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:02:52+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:02:52+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    24 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:03:04+02:00 [error]: Failed to setup error message elements: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-container') to be visible[22m
+[2m    25 × locator resolved to hidden <div class="error-container">…</div>[22m
+
+2025-06-04T07:04:24+02:00 [error]: Failed to verify error message for type password: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.password-error-message') to be visible[22m
+
+2025-06-04T07:04:24+02:00 [error]: Failed to verify error message for type spaces: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-message') to be visible[22m
+
+2025-06-04T07:04:24+02:00 [error]: Failed to verify error message for type username: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.username-error-message') to be visible[22m
+
+2025-06-04T07:04:24+02:00 [error]: Failed to verify error message for type caseSensitive: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-message') to be visible[22m
+
+2025-06-04T07:04:25+02:00 [error]: Failed to verify error message for type form: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.form-error-message') to be visible[22m
+
+2025-06-04T07:04:37+02:00 [error]: Failed to verify error message for type invalidCredentials: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.error-message') to be visible[22m
+
+2025-06-04T10:09:17+02:00 [error]: [LoginPage] Failed to navigate to login page
+2025-06-04T10:09:34+02:00 [error]: [LoginPage] Failed to inject error message of type invalidCredentials
+2025-06-04T10:09:34+02:00 [error]: [LoginPage] Login process failed

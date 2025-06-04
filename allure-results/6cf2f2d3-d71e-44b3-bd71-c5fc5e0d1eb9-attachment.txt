@@ -1,4 +1,0 @@
-2025-05-22T09:43:46+02:00 [info]: Navigated to download page
-2025-05-22T09:43:46+02:00 [info]: Download link is visible
-2025-05-22T09:43:53+02:00 [error]: Vignette did not appear, continue
-File successfully downloaded to: /Users/ankit.pawar/PL/prarius-automation-suite/src/download/sample-pdf-file.pdf

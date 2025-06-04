@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import path from 'path';
 
 /**
  * Read environment variables from file.
@@ -27,11 +28,10 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
-    ['html'],
+    ['html', { outputFolder: 'src/reporting/playwright-html-report' }],
     ['allure-playwright', {
-      detail: true,
-      outputFolder: 'allure-results',
-      suiteTitle: false,
+      outputFolder: './src/reporting/allure-results',
+      suiteTitle: true,
       environmentInfo: {
         NODE_VERSION: process.version,
         BROWSER: process.env.BROWSER || 'chromium',
@@ -42,7 +42,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'https://www.pararius.com/',
+    baseURL: 'http://localhost:8081',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
@@ -51,11 +51,26 @@ export default defineConfig({
     actionTimeout: 30000,
     navigationTimeout: 30000,
   },
+  outputDir: 'src/reporting/test-artifacts',
+
+  /* Global setup and teardown */
+  globalSetup: './src/tests/setup/global-setup.ts',
 
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'smoke',
+      grep: /@smoke/,
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'regression',
+      grep: /@regression/,
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'accessibility',
+      grep: /@accessibility/,
       use: { ...devices['Desktop Chrome'] },
     },
 
@@ -91,9 +106,10 @@ export default defineConfig({
   ],
 
   /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run start',
-  //   url: 'http://127.0.0.1:3000',
-  //   reuseExistingServer: !process.env.CI,
-  // },
+  webServer: {
+    command: 'npx http-server ./app/testautomation-web -p 8081',
+    url: 'http://localhost:8081',
+    reuseExistingServer: !process.env.CI,
+    timeout: 120000, // 2 minutes timeout for server startup
+  },
 });

@@ -1,1 +1,0 @@
-2025-05-22T09:43:45+02:00 [info]: User profile locator is visible
