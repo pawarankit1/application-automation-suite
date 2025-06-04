@@ -7,3 +7,235 @@
 2025-06-04T16:05:56+02:00 [info]: [LoginPage] Checking login status
 2025-06-04T16:05:56+02:00 [info]: [LoginPage] User is logged in - home button is visible
 2025-06-04T16:05:56+02:00 [info]: Authentication state saved for user user
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Error message element is now visible
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Verifying error message visibility for type: username
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Error message element is visible
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Error message text matches expected content
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Verifying current page is login page
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:26+02:00 [info]: Starting test: case sensitivity error
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:26+02:00 [info]: Starting test: spaces in username error
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:26+02:00 [info]: Starting login test for admin user
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:26+02:00 [info]: Starting login test for dev user
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:26+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Case sensitivity issue detected
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Injecting error message of type: caseSensitive
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message element updated in DOM
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message element is now visible
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Verifying error message visibility for type: caseSensitive
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message element is visible
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message text matches expected content
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Verifying current page is login page
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Username contains extra spaces
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Injecting error message of type: spaces
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message element updated in DOM
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message element is now visible
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Verifying error message visibility for type: spaces
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message element is visible
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Error message text matches expected content
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Verifying current page is login page
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:27+02:00 [info]: Starting login test for user user
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:27+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:28+02:00 [info]: Authentication state saved for admin user
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:28+02:00 [info]: Authentication state saved for dev user
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:28+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:29+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:29+02:00 [info]: Authentication state saved for user user
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] User is not logged in - home button not visible
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Login failed - invalid credentials
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Injecting error message of type: invalidCredentials
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Error message element updated in DOM
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Error message element is now visible
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Verifying error message visibility for type: invalidCredentials
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Error message element is visible
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Error message text matches expected content
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Verifying current page is login page
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:32+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:33+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] User is not logged in - home button not visible
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Login failed - invalid credentials
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Injecting error message of type: invalidCredentials
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Error message element updated in DOM
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Error message element is now visible
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Verifying error message visibility for type: invalidCredentials
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Error message element is visible
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Error message text matches expected content
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Verifying current page is login page
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:38+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:39+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:39+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] User is not logged in - home button not visible
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Login failed - invalid credentials
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Injecting error message of type: invalidCredentials
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Error message element updated in DOM
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Error message element is now visible
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Verifying error message visibility for type: invalidCredentials
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Error message element is visible
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Error message text matches expected content
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Verifying current page is login page
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:44+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] User is not logged in - home button not visible
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Login failed - invalid credentials
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Injecting error message of type: invalidCredentials
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Error message element updated in DOM
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Error message element is now visible
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Verifying error message visibility for type: invalidCredentials
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Error message element is visible
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Error message text matches expected content
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Verifying current page is login page
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:49+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:50+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:55+02:00 [info]: [LoginPage] User is not logged in - home button not visible
+2025-06-04T16:37:55+02:00 [info]: [LoginPage] Login failed - invalid credentials
+2025-06-04T16:37:55+02:00 [info]: [LoginPage] Injecting error message of type: invalidCredentials

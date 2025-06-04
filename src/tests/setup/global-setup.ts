@@ -1,5 +1,7 @@
 import path from 'path';
 import { logger } from '../../utils/LoggerUtil';
+import { chromium, FullConfig } from '@playwright/test';
+import { LoginPage } from '../../pages/LoginPage';
 
 // This is a type that will be used to define the user role
 export type UserRole = 'admin' | 'dev' | 'user';
@@ -60,8 +62,39 @@ if (usersList.length === 0 && roles.length > 0) {
 }
 
 // This function will be called ONCE before all tests
-async function globalSetup() {
+async function globalSetup(config: FullConfig) {
   logger.info('[GlobalSetup] Running Playwright global setup...');
+  
+  // Create storage state for each user role
+  for (const user of usersList) {
+    logger.info(`[GlobalSetup] Creating storage state for ${user.role} user`);
+    
+    const browser = await chromium.launch();
+    const context = await browser.newContext();
+    const page = await context.newPage();
+    
+    try {
+      const loginPage = new LoginPage(page);
+      await page.goto(config.projects[0].use.baseURL || 'http://localhost:8081');
+      await loginPage.login(user.email, user.password);
+      
+      const isLoggedIn = await loginPage.isLoggedIn();
+      if (!isLoggedIn) {
+        throw new Error(`Failed to login as ${user.role} user`);
+      }
+      
+      // Save storage state
+      await context.storageState({ path: user.storageState });
+      logger.info(`[GlobalSetup] Successfully created storage state for ${user.role} user`);
+    } catch (error) {
+      logger.error(`[GlobalSetup] Failed to create storage state for ${user.role} user: ${error}`);
+      throw error;
+    } finally {
+      await browser.close();
+    }
+  }
+  
+  logger.info('[GlobalSetup] Completed storage state creation for all users');
 }
 
 export default globalSetup; 

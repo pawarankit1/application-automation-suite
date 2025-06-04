@@ -24,3 +24,281 @@ Violation 1:
 2025-06-04T16:05:57+02:00 [info]: Help: id attribute value must be unique
 2025-06-04T16:05:57+02:00 [info]: Tags: cat.parsing, wcag2a-obsolete, wcag411, deprecated
 2025-06-04T16:05:57+02:00 [info]: Affected Elements: 1
+2025-06-04T16:34:47+02:00 [info]: [GlobalSetup] Loaded user for role: admin
+2025-06-04T16:34:47+02:00 [info]: [GlobalSetup] Loaded user for role: dev
+2025-06-04T16:34:47+02:00 [info]: [GlobalSetup] Loaded user for role: user
+2025-06-04T16:34:47+02:00 [info]: [GlobalSetup] Final usersList loaded
+2025-06-04T16:34:56+02:00 [info]: [GlobalSetup] Loaded user for role: admin
+2025-06-04T16:34:56+02:00 [info]: [GlobalSetup] Loaded user for role: dev
+2025-06-04T16:34:56+02:00 [info]: [GlobalSetup] Loaded user for role: user
+2025-06-04T16:34:56+02:00 [info]: [GlobalSetup] Final usersList loaded
+2025-06-04T16:34:56+02:00 [info]: [GlobalSetup] Running Playwright global setup...
+2025-06-04T16:34:56+02:00 [info]: [GlobalSetup] Creating storage state for admin user
+2025-06-04T16:34:56+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:34:56+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:34:56+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:34:56+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:34:56+02:00 [error]: [LoginPage] Failed to navigate to login page
+2025-06-04T16:34:56+02:00 [error]: [GlobalSetup] Failed to create storage state for admin user: Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+[2m  - navigating to "/", waiting until "load"[22m
+
+2025-06-04T16:37:17+02:00 [info]: [GlobalSetup] Loaded user for role: admin
+2025-06-04T16:37:17+02:00 [info]: [GlobalSetup] Loaded user for role: dev
+2025-06-04T16:37:17+02:00 [info]: [GlobalSetup] Loaded user for role: user
+2025-06-04T16:37:17+02:00 [info]: [GlobalSetup] Final usersList loaded
+2025-06-04T16:37:17+02:00 [info]: [GlobalSetup] Running Playwright global setup...
+2025-06-04T16:37:17+02:00 [info]: [GlobalSetup] Creating storage state for admin user
+2025-06-04T16:37:17+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:17+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:17+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:18+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:18+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:19+02:00 [info]: [GlobalSetup] Successfully created storage state for admin user
+2025-06-04T16:37:19+02:00 [info]: [GlobalSetup] Creating storage state for dev user
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:19+02:00 [info]: [GlobalSetup] Successfully created storage state for dev user
+2025-06-04T16:37:19+02:00 [info]: [GlobalSetup] Creating storage state for user user
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:19+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:20+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:20+02:00 [info]: [GlobalSetup] Successfully created storage state for user user
+2025-06-04T16:37:20+02:00 [info]: [GlobalSetup] Completed storage state creation for all users
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: admin
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: admin
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: admin
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: admin
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: admin
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: dev
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: user
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Final usersList loaded
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: dev
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: user
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Final usersList loaded
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: dev
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: user
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Final usersList loaded
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: dev
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: user
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Final usersList loaded
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: dev
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Loaded user for role: user
+2025-06-04T16:37:21+02:00 [info]: [GlobalSetup] Final usersList loaded
+2025-06-04T16:37:21+02:00 [info]: Starting login test for admin user
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:21+02:00 [info]: Navigating to login page
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:21+02:00 [info]: Starting tests for ADMIN user (authenticated)
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:21+02:00 [info]: Starting tests for ADMIN user (authenticated)
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:21+02:00 [info]: Navigating to login page
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:21+02:00 [info]: Starting tests for ADMIN user (authenticated)
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:21+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:22+02:00 [info]: Attempting login with user credentials
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:37:22+02:00 [info]: Verifying login status
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:37:22+02:00 [info]: Saving authentication state
+2025-06-04T16:37:22+02:00 [info]: Authentication state saved for admin user
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:22+02:00 [info]: Checking navigation elements
+2025-06-04T16:37:22+02:00 [info]: Initializing HomePage
+2025-06-04T16:37:22+02:00 [info]: Setting up page locators
+2025-06-04T16:37:22+02:00 [info]: HomePage initialization completed
+2025-06-04T16:37:22+02:00 [info]: Starting navigation elements verification
+2025-06-04T16:37:22+02:00 [info]: Verifying home link visibility
+2025-06-04T16:37:22+02:00 [info]: Home link is visible
+2025-06-04T16:37:22+02:00 [info]: Verifying products link visibility
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:22+02:00 [info]: Products link is visible
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:22+02:00 [info]: Verifying contact link visibility
+2025-06-04T16:37:22+02:00 [info]: Contact link is visible
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:22+02:00 [info]: Verifying profile icon visibility
+2025-06-04T16:37:22+02:00 [info]: Profile icon is visible
+2025-06-04T16:37:22+02:00 [info]: Navigation elements verification completed successfully
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:22+02:00 [info]: Initializing HomePage
+2025-06-04T16:37:22+02:00 [info]: Setting up page locators
+2025-06-04T16:37:22+02:00 [info]: HomePage initialization completed
+2025-06-04T16:37:22+02:00 [info]: Checking main content elements
+2025-06-04T16:37:22+02:00 [info]: Starting main content verification
+2025-06-04T16:37:22+02:00 [info]: Verifying main content visibility
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:22+02:00 [info]: Initializing HomePage
+2025-06-04T16:37:22+02:00 [info]: Setting up page locators
+2025-06-04T16:37:22+02:00 [info]: HomePage initialization completed
+2025-06-04T16:37:22+02:00 [info]: Initiating logout process
+2025-06-04T16:37:22+02:00 [info]: Starting logout process
+2025-06-04T16:37:22+02:00 [info]: Clicking profile icon
+2025-06-04T16:37:22+02:00 [info]: Main content is visible
+2025-06-04T16:37:22+02:00 [info]: Verifying body text content
+2025-06-04T16:37:22+02:00 [info]: Body contains text "Lorem ipsum"
+2025-06-04T16:37:22+02:00 [info]: Main content verification completed successfully
+2025-06-04T16:37:22+02:00 [info]: Profile icon clicked
+2025-06-04T16:37:22+02:00 [info]: Clicking logout button
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:22+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:22+02:00 [info]: Initializing HomePage
+2025-06-04T16:37:22+02:00 [info]: Setting up page locators
+2025-06-04T16:37:22+02:00 [info]: HomePage initialization completed
+2025-06-04T16:37:22+02:00 [info]: Checking navigation elements
+2025-06-04T16:37:22+02:00 [info]: Starting navigation elements verification
+2025-06-04T16:37:22+02:00 [info]: Verifying home link visibility
+2025-06-04T16:37:23+02:00 [info]: Home link is visible
+2025-06-04T16:37:23+02:00 [info]: Verifying products link visibility
+2025-06-04T16:37:23+02:00 [info]: Products link is visible
+2025-06-04T16:37:23+02:00 [info]: Verifying contact link visibility
+2025-06-04T16:37:23+02:00 [info]: Contact link is visible
+2025-06-04T16:37:23+02:00 [info]: Verifying profile icon visibility
+2025-06-04T16:37:23+02:00 [info]: Logout button clicked
+2025-06-04T16:37:23+02:00 [info]: Verifying redirect to login page
+2025-06-04T16:37:23+02:00 [info]: Profile icon is visible
+2025-06-04T16:37:23+02:00 [info]: Successfully redirected to login page
+2025-06-04T16:37:23+02:00 [info]: Navigation elements verification completed successfully
+2025-06-04T16:37:23+02:00 [info]: Verifying login form visibility
+2025-06-04T16:37:23+02:00 [info]: Login form is visible
+2025-06-04T16:37:23+02:00 [info]: Logout process completed successfully
+2025-06-04T16:37:23+02:00 [info]: Verifying redirect to login page
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Verifying current page is login page
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Successfully verified we are on the login page
+2025-06-04T16:37:23+02:00 [info]: Starting tests for DEV user (authenticated)
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:23+02:00 [info]: Starting tests for USER user (authenticated)
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:23+02:00 [info]: Starting tests for USER user (authenticated)
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:23+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:24+02:00 [info]: Initializing HomePage
+2025-06-04T16:37:24+02:00 [info]: Setting up page locators
+2025-06-04T16:37:24+02:00 [info]: HomePage initialization completed
+2025-06-04T16:37:24+02:00 [info]: Initiating logout process
+2025-06-04T16:37:24+02:00 [info]: Starting logout process
+2025-06-04T16:37:24+02:00 [info]: Clicking profile icon
+2025-06-04T16:37:24+02:00 [info]: Profile icon clicked
+2025-06-04T16:37:24+02:00 [info]: Clicking logout button
+2025-06-04T16:37:24+02:00 [info]: Logout button clicked
+2025-06-04T16:37:24+02:00 [info]: Verifying redirect to login page
+2025-06-04T16:37:24+02:00 [info]: Successfully redirected to login page
+2025-06-04T16:37:24+02:00 [info]: Verifying login form visibility
+2025-06-04T16:37:24+02:00 [info]: Login form is visible
+2025-06-04T16:37:24+02:00 [info]: Logout process completed successfully
+2025-06-04T16:37:24+02:00 [info]: Verifying redirect to login page
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Verifying current page is login page
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:24+02:00 [info]: Initializing HomePage
+2025-06-04T16:37:24+02:00 [info]: Setting up page locators
+2025-06-04T16:37:24+02:00 [info]: HomePage initialization completed
+2025-06-04T16:37:24+02:00 [info]: Checking navigation elements
+2025-06-04T16:37:24+02:00 [info]: Starting navigation elements verification
+2025-06-04T16:37:24+02:00 [info]: Verifying home link visibility
+2025-06-04T16:37:24+02:00 [info]: Home link is visible
+2025-06-04T16:37:24+02:00 [info]: Verifying products link visibility
+2025-06-04T16:37:24+02:00 [info]: Products link is visible
+2025-06-04T16:37:24+02:00 [info]: Verifying contact link visibility
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:37:24+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:37:24+02:00 [info]: Initializing HomePage
+2025-06-04T16:37:24+02:00 [info]: Setting up page locators
+2025-06-04T16:37:24+02:00 [info]: HomePage initialization completed
+2025-06-04T16:37:24+02:00 [info]: Checking main content elements
+2025-06-04T16:37:24+02:00 [info]: Starting main content verification
+2025-06-04T16:37:24+02:00 [info]: Verifying main content visibility

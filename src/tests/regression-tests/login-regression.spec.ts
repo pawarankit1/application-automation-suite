@@ -14,7 +14,7 @@ test.describe('@regression Login', () => {
     await loginPage.login(user.email, user.password);
     const isLoggedIn = await loginPage.isLoggedIn();
     expect(isLoggedIn).toBeTruthy();
-    await context.storageState({ path: user.storageState });
+    //await context.storageState({ path: user.storageState });
     logger.info(`Authentication state saved for ${user.role} user`);
   });
 // This is a test that will be used to verify that the login page shows an error when the username is blank

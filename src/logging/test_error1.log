@@ -114,3 +114,8 @@ Call log:
 2025-06-04T10:09:17+02:00 [error]: [LoginPage] Failed to navigate to login page
 2025-06-04T10:09:34+02:00 [error]: [LoginPage] Failed to inject error message of type invalidCredentials
 2025-06-04T10:09:34+02:00 [error]: [LoginPage] Login process failed
+2025-06-04T16:34:56+02:00 [error]: [LoginPage] Failed to navigate to login page
+2025-06-04T16:34:56+02:00 [error]: [GlobalSetup] Failed to create storage state for admin user: Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+[2m  - navigating to "/", waiting until "load"[22m
+
