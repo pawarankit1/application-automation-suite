@@ -1,26 +1,26 @@
-2025-06-04T15:53:03+02:00 [info]: [LoginPage] Initializing LoginPage
-2025-06-04T15:53:03+02:00 [info]: [LoginPage] Setting up page locators
-2025-06-04T15:53:03+02:00 [info]: [LoginPage] Initialization completed successfully
-2025-06-04T15:53:03+02:00 [info]: [LoginPage] Starting navigation to login page
-2025-06-04T15:53:03+02:00 [info]: [LoginPage] Page URL loaded successfully
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Page reached network idle state
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Error message elements injected successfully
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Navigation to login page completed successfully
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Starting login process
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Clearing input fields
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Filling login credentials
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Clicking submit button
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Checking login conditions
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Checking login status
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] User is logged in - home button is visible
-2025-06-04T15:53:04+02:00 [info]: [LoginPage] Login process completed
-2025-06-04T15:53:04+02:00 [info]: Accessibility Violations:
-2025-06-04T15:53:04+02:00 [info]: 
+2025-06-04T16:05:56+02:00 [info]: [LoginPage] Initializing LoginPage
+2025-06-04T16:05:56+02:00 [info]: [LoginPage] Setting up page locators
+2025-06-04T16:05:56+02:00 [info]: [LoginPage] Initialization completed successfully
+2025-06-04T16:05:56+02:00 [info]: [LoginPage] Starting navigation to login page
+2025-06-04T16:05:56+02:00 [info]: [LoginPage] Page URL loaded successfully
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Page reached network idle state
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Starting to mock error and dashboard elements
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Error message elements injected successfully
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Navigation to login page completed successfully
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Starting login process
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Clearing input fields
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Filling login credentials
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Clicking submit button
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Checking login conditions
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Checking login status
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] User is logged in - home button is visible
+2025-06-04T16:05:57+02:00 [info]: [LoginPage] Login process completed
+2025-06-04T16:05:57+02:00 [info]: Accessibility Violations:
+2025-06-04T16:05:57+02:00 [info]: 
 Violation 1:
-2025-06-04T15:53:04+02:00 [info]: Rule: duplicate-id
-2025-06-04T15:53:04+02:00 [info]: Impact: minor
-2025-06-04T15:53:04+02:00 [info]: Description: Ensure every id attribute value is unique
-2025-06-04T15:53:04+02:00 [info]: Help: id attribute value must be unique
-2025-06-04T15:53:04+02:00 [info]: Tags: cat.parsing, wcag2a-obsolete, wcag411, deprecated
-2025-06-04T15:53:04+02:00 [info]: Affected Elements: 1
+2025-06-04T16:05:57+02:00 [info]: Rule: duplicate-id
+2025-06-04T16:05:57+02:00 [info]: Impact: minor
+2025-06-04T16:05:57+02:00 [info]: Description: Ensure every id attribute value is unique
+2025-06-04T16:05:57+02:00 [info]: Help: id attribute value must be unique
+2025-06-04T16:05:57+02:00 [info]: Tags: cat.parsing, wcag2a-obsolete, wcag411, deprecated
+2025-06-04T16:05:57+02:00 [info]: Affected Elements: 1
