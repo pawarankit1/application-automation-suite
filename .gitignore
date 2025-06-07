@@ -12,3 +12,4 @@ playwright/.cache/
 .DS_Store
 # Authentication
 src/auth/*.json
+src/logging/test_run.log
