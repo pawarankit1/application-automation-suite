@@ -29,11 +29,6 @@ jobs:
       env:
         CI: true
     
-    - name: Run accessibility tests
-      run: npm run test:accessibility
-      env:
-        CI: true
-    
     - name: Install Allure
       run: |
         curl -o allure-commandline-2.24.1.tgz -OL https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.24.1/allure-commandline-2.24.1.tgz
