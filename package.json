@@ -1,10 +1,10 @@
 {
-  "name": "prarius-automation-suite",
+  "name": "application-automation-suite",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:regression": "playwright test src/tests/regression-tests",
-    "test:accessibility": "playwright test src/tests/accessibility-tests"
+    "test:regression": "playwright test --project=regression",
+    "test:accessibility": "playwright test --project=accessibility"
   },
   "keywords": [],
   "author": "",
