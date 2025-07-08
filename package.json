@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:regression": "playwright test --project=regression",
-    "test:accessibility": "playwright test --project=accessibility"
+  "test:regression": "bash runner/regression-test-runner.sh",
+  "test:accessibility": "bash runner/accessibility-test-runner.sh",
+  "test:smoke": "bash runner/smoke-test-runner.sh",
+  "test:complete": "bash runner/complete-test-runner.sh"
   },
   "keywords": [],
   "author": "",
