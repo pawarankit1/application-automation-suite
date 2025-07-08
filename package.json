@@ -2,7 +2,10 @@
   "name": "prarius-automation-suite",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:regression": "playwright test src/tests/regression-tests",
+    "test:accessibility": "playwright test src/tests/accessibility-tests"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
